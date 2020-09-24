@@ -30,6 +30,10 @@ public class Solution {
     }
     public static class CheapCar {
         void printlnDesire(){
+            
+            
+            
+            
             System.out.println(Constants.WANT_STRING+Constants.CHEAP_CAR);
         }
     }
