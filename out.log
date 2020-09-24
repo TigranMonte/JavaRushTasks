@@ -1210,3 +1210,42 @@
 2020-09-24 19:30:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-09-24 19:31:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-09-24 19:31:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:32:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:32:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:33:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:33:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:33:46 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 19:34:34 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:34:35 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:34:48 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 19:34:54 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-09-24 19:34:54 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 19:35:02 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 19:35:02 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 19:35:18 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-09-24 19:35:18 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.42 ----------
+
+2020-09-24 19:35:18 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-09-24 19:35:18 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-09-24 19:35:19 INFO  ApacheHttpClient.testConnection(202) - responseCode = 200
+2020-09-24 19:35:19 INFO  ApacheHttpClient.testConnection(217) - result = true
+2020-09-24 19:35:22 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-24 19:35:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-24 19:35:53 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-24 19:35:53 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-24 19:35:53 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-24 19:35:53 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-09-24 19:36:14 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 19:36:54 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:36:54 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:37:15 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-24 19:37:24 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-24 19:37:29 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-24 19:37:38 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-09-24 19:37:40 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 19:37:53 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:38:53 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-24 19:39:02 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 19:39:03 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-24 19:39:53 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
