@@ -1301,3 +1301,113 @@
 2020-09-26 21:11:28 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
 2020-09-26 21:11:28 INFO  ApacheHttpClient.startGA(35) - GAService started.
 2020-09-26 21:11:28 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-09-26 21:14:11 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-09-26 21:14:30 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-09-26 21:14:30 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-09-26 21:14:30 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.42 ----------
+
+2020-09-26 21:14:30 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.42 ----------
+
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:14 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:15:18 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-26 21:15:18 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-26 21:15:18 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-26 21:15:18 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-26 21:15:18 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-26 21:15:18 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-26 21:15:18 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-09-26 21:15:18 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-09-26 21:15:23 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-26 21:15:23 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-26 21:15:23 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-26 21:15:23 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-09-26 21:15:29 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-09-26 21:15:29 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-09-26 21:15:47 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-26 21:15:47 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-26 21:16:18 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-26 21:16:18 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
