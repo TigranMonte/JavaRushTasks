@@ -1281,3 +1281,23 @@
 2020-09-25 20:24:06 INFO  ApacheHttpClient.startGA(35) - GAService started.
 2020-09-25 20:24:06 INFO  AbstractRestApiClient.startService(71) - EventsService started.
 2020-09-25 20:24:24 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-26 21:11:27 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-09-26 21:11:27 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.42 ----------
+
+2020-09-26 21:11:27 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:11:27 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:11:27 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-26 21:11:27 INFO  ApacheHttpClient.logout(625) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(247) - Waiting for server response.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(251) - responseCode = 200
+2020-09-26 21:11:28 INFO  ApacheHttpClient.login(274) - JSESSIONID OK
+2020-09-26 21:11:28 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-26 21:11:28 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-26 21:11:28 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-26 21:11:28 INFO  AbstractRestApiClient.startService(71) - EventsService started.
