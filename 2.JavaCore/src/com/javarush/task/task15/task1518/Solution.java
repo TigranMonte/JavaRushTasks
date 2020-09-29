@@ -10,4 +10,15 @@ public class Solution {
     public static void main(String[] args) {
 
     }
+
+    public static class Cat{
+        public String name;
+
+    }
+
+    static {
+        cat = new Cat();
+        cat.name = "Cat1";
+        System.out.println(cat.name);
+    }
 }
