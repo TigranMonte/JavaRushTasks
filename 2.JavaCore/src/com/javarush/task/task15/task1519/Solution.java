@@ -18,7 +18,7 @@ public class Solution {
             else {
                 try {
                     if (key.contains("."))
-                        print(Double.parseDouble(key));1.
+                        print(Double.parseDouble(key));
                     else if (Integer.parseInt(key) <= 0 || Integer.parseInt(key) >= 128)
                         print(Integer.parseInt(key));
                     else if (Short.parseShort(key) > 0 && Short.parseShort(key) < 128)
