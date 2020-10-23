@@ -3021,3 +3021,4 @@ java.lang.NullPointerException
 2020-10-23 23:04:09 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
 2020-10-23 23:04:20 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
 2020-10-23 23:04:21 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-10-23 23:04:47 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
