@@ -3341,3 +3341,38 @@ Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
 2020-10-29 23:55:35 INFO  ApacheHttpClient.startGA(36) - GAService started.
 2020-10-29 23:55:36 INFO  AbstractRestApiClient.startService(71) - EventsService started.
 2020-10-29 23:55:48 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-10-29 23:56:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-10-29 23:56:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-10-29 23:56:35 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-10-29 23:56:36 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-10-29 23:56:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-10-29 23:57:10 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-10-29 23:57:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-10-29 23:57:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-10-30 23:15:52 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-10-30 23:15:52 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-10-30 23:15:52 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-10-30 23:15:52 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-10-30 23:15:55 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-10-30 23:15:55 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-10-30 23:15:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-10-30 23:15:57 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-10-30 23:15:58 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-10-30 23:15:58 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-10-30 23:15:58 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-10-30 23:16:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-10-30 23:16:58 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-10-30 23:16:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-10-30 23:17:00 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-10-30 23:17:11 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-10-30 23:17:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
