@@ -3449,3 +3449,8 @@ Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
 2020-11-02 21:11:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-11-02 21:11:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-11-02 21:11:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-02 21:12:19 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-02 21:12:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-02 21:12:32 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-02 21:12:37 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-02 21:12:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
