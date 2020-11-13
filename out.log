@@ -3866,3 +3866,83 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2020-11-12 22:38:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-11-12 22:38:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-11-12 22:38:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-12 22:38:49 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-11-12 22:38:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-12 22:38:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-12 22:38:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-12 22:38:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-12 22:38:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-12 22:38:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:08:28 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-11-13 21:08:28 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-11-13 21:08:28 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-11-13 21:08:28 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-11-13 21:08:30 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-11-13 21:08:30 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-11-13 21:08:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-11-13 21:08:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-11-13 21:08:34 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-11-13 21:08:34 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-11-13 21:08:34 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-11-13 21:08:34 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-11-13 21:08:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-13 21:09:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-13 21:09:28 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-13 21:09:36 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-13 21:09:38 INFO  AnalyticsService.run(82) - Error while sending analyticsMessage to log-stash
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1320)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1159)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1062)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:402)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:75)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:167)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:108)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1151)
+	... 18 more
+2020-11-13 21:09:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-13 21:10:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-13 21:10:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-13 21:11:01 INFO  AnalyticsService.run(82) - Error while sending analyticsMessage to log-stash
+org.apache.http.NoHttpResponseException: javarush.ru:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:75)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-11-13 21:11:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-13 21:11:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-13 21:11:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-13 21:11:19 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-13 21:11:35 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
