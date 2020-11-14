@@ -3997,3 +3997,52 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2020-11-13 21:20:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2020-11-13 21:20:43 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-11-13 21:21:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-13 21:22:44 ERROR ApacheHttpClient.processExceptionSendEvent(110) - (super) : Error while sending the event to the server.
+java.util.concurrent.ExecutionException: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.sendEvent(ApacheHttpClient.java:535)
+	at com.homework.plugin.service.EventsService$1.run(EventsService.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:344)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:121)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588)
+	... 1 more
+2020-11-13 21:23:34 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-13 21:24:19 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-11-13 21:24:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:24:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:24:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:24:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:24:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-13 21:24:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-14 20:00:10 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-11-14 20:00:10 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-11-14 20:00:10 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-11-14 20:00:10 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-11-14 20:00:10 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-11-14 20:00:10 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-11-14 20:00:10 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-11-14 20:00:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-14 20:00:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-14 20:00:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-14 20:00:25 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-14 20:00:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-14 20:00:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
