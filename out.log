@@ -4789,3 +4789,17 @@ Caused by: java.net.SocketException: Operation timed out (Read failed)
 	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1103)
 	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
 	... 21 more
+2020-11-18 22:03:14 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:03:14 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:03:15 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2020-11-18 22:03:15 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2020-11-18 22:03:31 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:03:31 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:03:42 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(282) - responseCode = 200
+2020-11-18 22:03:42 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(282) - responseCode = 200
+2020-11-18 22:03:43 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:03:43 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:03:45 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-18 22:03:45 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-18 22:04:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:04:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
