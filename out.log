@@ -4803,3 +4803,15 @@ Caused by: java.net.SocketException: Operation timed out (Read failed)
 2020-11-18 22:03:45 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2020-11-18 22:04:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
 2020-11-18 22:04:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:05:06 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:05:06 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:05:13 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2020-11-18 22:05:13 INFO  HttpsURLConnectionClient.getFilteredTasks(256) - responseCode = 200
+2020-11-18 22:05:30 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(282) - responseCode = 200
+2020-11-18 22:05:30 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(282) - responseCode = 200
+2020-11-18 22:05:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:05:30 INFO  HttpsURLConnectionClient.sendEvent(694) - responseCode = 200
+2020-11-18 22:05:31 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-18 22:05:31 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-18 22:05:32 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
+2020-11-18 22:05:32 INFO  HttpsURLConnectionClient.getWebResourceAsStream(643) - responseCode = 200
