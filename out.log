@@ -4951,3 +4951,32 @@ Caused by: java.net.SocketException: Operation timed out (Read failed)
 2020-11-20 23:30:38 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2020-11-20 23:30:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2020-11-20 23:30:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-20 23:31:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-20 23:31:47 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-11-20 23:31:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-20 23:31:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-20 23:31:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-20 23:31:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-20 23:31:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-20 23:31:48 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-21 14:29:09 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-11-21 14:29:09 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-11-21 14:29:09 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-11-21 14:29:09 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-11-21 14:29:10 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-11-21 14:29:10 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-11-21 14:29:10 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-11-21 14:29:11 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-11-21 14:29:11 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-11-21 14:29:11 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-11-21 14:29:11 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-11-21 14:29:11 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-21 14:29:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-21 14:29:37 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-21 14:29:38 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-21 14:29:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-21 14:29:53 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-21 14:29:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-21 14:30:11 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
