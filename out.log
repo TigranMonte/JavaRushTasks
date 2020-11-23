@@ -5172,3 +5172,28 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2020-11-22 21:15:23 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2020-11-22 21:15:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2020-11-22 21:15:47 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-22 21:16:12 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-11-22 21:16:12 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-11-22 21:16:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-22 21:16:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-22 21:16:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-22 21:16:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-22 21:16:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-23 20:53:49 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-11-23 20:53:49 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-11-23 20:53:49 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-11-23 20:53:49 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-11-23 20:53:50 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-11-23 20:53:50 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-11-23 20:53:50 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-11-23 20:53:50 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-11-23 20:53:51 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-11-23 20:53:51 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-11-23 20:53:51 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-11-23 20:53:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-23 20:54:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-23 20:54:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-23 20:54:17 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-23 20:54:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
