@@ -5197,3 +5197,8 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2020-11-23 20:54:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-11-23 20:54:17 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-11-23 20:54:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-23 20:54:51 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-23 20:55:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-23 20:55:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-23 20:55:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-23 20:55:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
