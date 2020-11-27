@@ -5630,3 +5630,9 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2020-11-27 19:40:06 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-11-27 19:40:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2020-11-27 19:40:53 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-27 19:41:53 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-27 19:42:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-27 19:42:46 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-11-27 19:42:53 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-27 19:43:11 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-11-27 19:43:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
