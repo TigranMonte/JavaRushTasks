@@ -5629,3 +5629,4 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2020-11-27 19:39:47 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-11-27 19:40:06 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-11-27 19:40:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-11-27 19:40:53 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
