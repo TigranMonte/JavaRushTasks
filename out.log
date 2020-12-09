@@ -6740,3 +6740,8 @@ java.net.UnknownHostException: javarush.ru
 2020-12-09 22:40:29 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-12-09 22:40:34 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-12-09 22:40:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-09 22:41:10 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-09 22:41:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-09 22:41:14 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-09 22:41:18 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-09 22:41:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
