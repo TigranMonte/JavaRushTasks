@@ -6820,3 +6820,59 @@ java.net.UnknownHostException: javarush.ru
 2020-12-12 18:19:38 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-12-12 18:19:44 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-12-12 18:19:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-12 18:20:06 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-12 18:20:17 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-12-12 18:20:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-12 18:20:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-12 18:20:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-12 18:20:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-13 21:46:29 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-12-13 21:46:29 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-12-13 21:46:29 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-12-13 21:46:29 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-12-13 21:46:53 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-12-13 21:46:53 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-12-13 21:46:55 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:55 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:55 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:55 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:55 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:56 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:46:58 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-13 21:47:00 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-12-13 21:47:01 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-12-13 21:47:01 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-12-13 21:47:01 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-12-13 21:47:04 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-13 21:47:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-13 21:47:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-13 21:47:46 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-13 21:47:59 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-13 21:47:59 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-13 21:48:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-13 21:48:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
