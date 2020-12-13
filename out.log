@@ -6876,3 +6876,9 @@ java.net.UnknownHostException: javarush.ru
 2020-12-13 21:47:59 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2020-12-13 21:48:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-12-13 21:48:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-13 21:48:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-13 21:48:45 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-13 21:48:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-13 21:48:53 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-13 21:48:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-13 21:49:01 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
