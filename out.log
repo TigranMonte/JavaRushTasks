@@ -7600,3 +7600,40 @@ Caused by: java.io.IOException: Operation timed out
 2020-12-20 20:19:43 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2020-12-20 20:19:49 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-12-20 20:19:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-20 20:20:19 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-20 20:20:26 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-20 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-21 20:56:22 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2020-12-21 20:56:22 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.43 ----------
+
+2020-12-21 20:56:22 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2020-12-21 20:56:22 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2020-12-21 20:56:23 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2020-12-21 20:56:23 INFO  ApacheHttpClient.testConnection(220) - result = true
+2020-12-21 20:56:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-21 20:56:23 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-12-21 20:56:23 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-12-21 20:56:23 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-12-21 20:56:23 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-12-21 20:56:25 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-21 20:56:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-21 20:56:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-21 20:56:52 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-21 20:57:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-21 20:57:09 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-21 20:57:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-21 20:57:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-21 20:57:19 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-21 20:57:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-21 20:57:32 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-21 20:57:33 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-21 20:57:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
