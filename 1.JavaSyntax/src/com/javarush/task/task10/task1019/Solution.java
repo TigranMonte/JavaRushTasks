@@ -15,10 +15,12 @@ public class Solution {
         HashMap<String,Integer> map = new HashMap<String, Integer>();
         while(true)
         {
+
             String t = reader.readLine();
 
             if(t.isEmpty())
                 break;
+
             int id = Integer.parseInt(t);
             String name = reader.readLine();
             map.put(name,id);
