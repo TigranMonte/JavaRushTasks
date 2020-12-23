@@ -7816,3 +7816,9 @@ Caused by: java.io.IOException: Operation timed out
 2020-12-23 20:22:40 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2020-12-23 20:22:41 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2020-12-23 20:22:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-23 20:23:03 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-23 20:23:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-23 20:23:13 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-23 20:23:15 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-23 20:23:15 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2020-12-23 20:23:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
