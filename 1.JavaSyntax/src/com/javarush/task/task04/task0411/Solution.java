@@ -11,9 +11,8 @@ public class Solution {
         checkSeason(7);
         checkSeason(10);
     }
-
     public static void checkSeason(int month) {
-        if (month == 12 && month >= 2) {
+        if (month == 12 || month >= 1 && month <=2) {
             System.out.println("зима");
         }
         else if (month >= 3 && month <=5) {
