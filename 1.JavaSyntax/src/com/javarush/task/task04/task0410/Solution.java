@@ -10,15 +10,13 @@ public class Solution {
         checkInterval(112);
         checkInterval(10);
     }
-
     public static void checkInterval(int a) {
-        if (50 <= a && a>= 100) {
+        if (a >= 50 && a <= 100) {
             System.out.println("Число " + a + " содержится в интервале.");
         }
         else{
             System.out.println("Число " + a + " не содержится в интервале.");
         }
-        //напишите тут ваш код
 
     }
 }
