@@ -20,7 +20,6 @@ public class Solution {
                 System.out.println("количество дней в году: 366");
             }
         }
-
         else {
             System.out.println("количество дней в году: 365");
         }
