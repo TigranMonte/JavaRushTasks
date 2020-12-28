@@ -35,6 +35,5 @@ public class Solution {
         else if (a > 7 || a < 1){
             System.out.println("такого дня недели не существует");
         }
-
     }
 }
