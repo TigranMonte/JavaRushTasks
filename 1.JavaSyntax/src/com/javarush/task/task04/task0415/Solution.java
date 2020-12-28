@@ -20,7 +20,5 @@ public class Solution {
             System.out.println("Треугольник не существует.");
         else
             System.out.println("Треугольник существует.");
-
     }
-
 }
