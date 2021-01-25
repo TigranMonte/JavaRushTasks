@@ -9019,3 +9019,29 @@ Caused by: java.io.IOException: Operation timed out
 2021-01-24 21:28:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-01-24 21:28:27 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-01-24 21:29:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-01-24 21:29:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-24 21:29:48 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-01-24 21:29:58 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-01-24 21:30:03 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-24 21:30:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-24 21:30:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-25 23:12:17 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-01-25 23:12:18 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.44 ----------
+
+2021-01-25 23:12:18 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-01-25 23:12:18 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-01-25 23:12:18 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-01-25 23:12:18 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-01-25 23:12:19 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-01-25 23:12:19 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-01-25 23:12:19 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-01-25 23:12:19 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-01-25 23:12:19 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-01-25 23:12:19 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-01-25 23:12:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-25 23:12:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-25 23:12:46 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-01-25 23:12:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-01-25 23:12:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-25 23:13:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
