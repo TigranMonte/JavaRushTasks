@@ -11,6 +11,5 @@ public class Cat {
    int strength;
    
     public static void main(String[] args) {
-
     }
 }
