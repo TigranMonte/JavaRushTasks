@@ -9084,3 +9084,30 @@ Caused by: java.io.IOException: Operation timed out
 2021-01-26 23:42:14 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-01-26 23:42:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-01-26 23:42:30 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-01-26 23:43:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-26 23:43:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-01-26 23:43:30 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-01-26 23:43:41 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-01-26 23:43:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-26 23:43:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-26 23:43:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-26 23:43:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-27 23:28:02 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-01-27 23:28:02 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.44 ----------
+
+2021-01-27 23:28:02 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-01-27 23:28:02 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-01-27 23:28:03 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-01-27 23:28:03 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-01-27 23:28:03 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-01-27 23:28:03 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-01-27 23:28:03 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-01-27 23:28:03 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-01-27 23:28:03 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-01-27 23:28:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-27 23:28:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-27 23:28:20 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-01-27 23:28:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-01-27 23:28:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-01-27 23:29:03 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
