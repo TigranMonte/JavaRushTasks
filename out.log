@@ -9224,3 +9224,129 @@ Caused by: java.io.IOException: Operation timed out
 2021-01-30 16:21:49 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-01-30 16:21:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-01-30 16:22:15 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-01-30 16:22:32 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-01-30 16:22:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-30 16:22:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-30 16:22:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-01-30 16:22:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 21:34:18 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-02-01 21:34:18 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.44 ----------
+
+2021-02-01 21:34:18 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-02-01 21:34:19 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-02-01 21:34:22 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-02-01 21:34:22 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-02-01 21:34:22 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:34:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:34:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:34:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:34:24 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-02-01 21:34:24 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-02-01 21:34:24 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-02-01 21:34:24 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-02-01 21:35:27 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:35:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:35:57 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:35:58 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:36:30 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:37:20 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:38:22 INFO  AnalyticsService.run(82) - Error while sending analyticsMessage to log-stash
+org.apache.http.NoHttpResponseException: javarush.ru:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:75)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-01 21:38:28 ERROR ApacheHttpClient.processExceptionSendEvent(110) - (super) : Error while sending the event to the server.
+java.util.concurrent.ExecutionException: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.sendEvent(ApacheHttpClient.java:535)
+	at com.homework.plugin.service.EventsService$1.run(EventsService.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:344)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:121)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588)
+	... 1 more
+2021-02-01 21:39:30 ERROR ApacheHttpClient.processExceptionSendEvent(110) - (super) : Error while sending the event to the server.
+java.util.concurrent.ExecutionException: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.sendEvent(ApacheHttpClient.java:535)
+	at com.homework.plugin.service.EventsService$1.run(EventsService.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:344)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:121)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588)
+	... 1 more
+2021-02-01 21:39:37 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:40:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:41:25 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:42:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:43:22 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-02-01 21:43:23 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.44 ----------
+
+2021-02-01 21:43:23 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-02-01 21:43:23 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-02-01 21:43:24 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-02-01 21:43:24 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-02-01 21:43:24 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:43:24 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:43:24 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-02-01 21:43:24 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-02-01 21:43:24 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-02-01 21:43:25 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-02-01 21:43:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:43:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:43:45 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:43:59 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:44:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:44:25 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:44:27 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:44:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:44:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:44:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
