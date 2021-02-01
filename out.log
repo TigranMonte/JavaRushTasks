@@ -9350,3 +9350,8 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2021-02-01 21:44:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-02-01 21:44:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-02-01 21:44:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:45:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:45:05 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:45:20 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:45:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:45:25 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
