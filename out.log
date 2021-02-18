@@ -9926,3 +9926,7 @@ org.apache.http.NoHttpResponseException: javarush.ru:443 failed to respond
 2021-02-18 22:53:54 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-02-18 22:53:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-02-18 22:53:57 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:54:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-18 22:54:25 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-18 22:54:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-18 22:54:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
