@@ -11195,3 +11195,32 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-03-06 22:48:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-03-06 22:48:27 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-03-06 22:48:27 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-06 22:49:27 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-06 22:49:27 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-06 22:49:50 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-03-06 22:49:50 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-03-06 22:49:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-06 22:49:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-06 22:49:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-06 22:49:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-07 23:18:06 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-03-07 23:18:06 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.45 ----------
+
+2021-03-07 23:18:06 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-03-07 23:18:06 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-03-07 23:18:07 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-03-07 23:18:07 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-03-07 23:18:07 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-07 23:18:07 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-07 23:18:08 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-03-07 23:18:08 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-03-07 23:18:08 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-03-07 23:18:08 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-03-07 23:18:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-07 23:18:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-07 23:18:31 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-07 23:18:46 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-07 23:18:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-07 23:19:08 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
