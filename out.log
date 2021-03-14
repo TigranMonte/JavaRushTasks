@@ -11467,3 +11467,119 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-03-13 20:39:57 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-03-13 20:40:03 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-03-13 20:40:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-13 20:40:47 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 20:41:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-13 20:41:12 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-13 20:41:16 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-13 20:41:22 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-13 20:41:25 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-13 20:41:37 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-13 20:41:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-13 20:41:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 20:42:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:15:18 ERROR ApacheHttpClient.processExceptionSendEvent(110) - (super) : Error while sending the event to the server.
+java.util.concurrent.ExecutionException: java.io.IOException: Operation timed out
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.sendEvent(ApacheHttpClient.java:535)
+	at com.homework.plugin.service.EventsService$1.run(EventsService.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Operation timed out
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.http.nio.reactor.ssl.SSLIOSession.receiveEncryptedData(SSLIOSession.java:451)
+	at org.apache.http.nio.reactor.ssl.SSLIOSession.isAppInputReady(SSLIOSession.java:505)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:120)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588)
+	... 1 more
+2021-03-13 21:15:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:16:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:17:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:18:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:19:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:20:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:21:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:22:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:23:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:24:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:25:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:26:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:27:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:28:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:29:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:30:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:31:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:32:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:33:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:34:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:35:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:36:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:37:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:38:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:39:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:40:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:41:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:42:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:43:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:44:40 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:54:07 ERROR ApacheHttpClient.processExceptionSendEvent(110) - (super) : Error while sending the event to the server.
+java.util.concurrent.ExecutionException: java.io.IOException: Operation timed out
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.sendEvent(ApacheHttpClient.java:535)
+	at com.homework.plugin.service.EventsService$1.run(EventsService.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Operation timed out
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at org.apache.http.nio.reactor.ssl.SSLIOSession.receiveEncryptedData(SSLIOSession.java:451)
+	at org.apache.http.nio.reactor.ssl.SSLIOSession.isAppInputReady(SSLIOSession.java:505)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:120)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588)
+	... 1 more
+2021-03-13 21:54:16 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:55:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:56:14 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:57:11 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:58:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 21:59:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:00:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:01:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:02:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:03:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:04:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-13 22:05:09 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-14 21:13:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-14 21:13:08 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-14 21:13:20 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-14 21:13:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
