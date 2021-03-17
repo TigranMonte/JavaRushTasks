@@ -12010,3 +12010,8 @@ Caused by: java.io.IOException: Operation timed out
 2021-03-17 22:10:00 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-03-17 22:10:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-03-17 22:10:10 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-17 22:10:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-17 22:10:42 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-17 22:10:44 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-17 22:10:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-17 22:11:10 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
