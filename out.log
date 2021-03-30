@@ -13817,3 +13817,10 @@ java.net.UnknownHostException: javarush.ru
 2021-03-30 23:30:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-03-30 23:30:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-03-30 23:31:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-30 23:32:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-30 23:32:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-30 23:32:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-30 23:32:32 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-30 23:32:33 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-03-30 23:32:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-30 23:33:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
