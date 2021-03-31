@@ -13831,3 +13831,34 @@ java.net.UnknownHostException: javarush.ru
 2021-03-30 23:34:40 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2021-03-30 23:34:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-03-30 23:35:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-30 23:36:20 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-30 23:36:32 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-03-30 23:36:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-30 23:36:33 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-03-30 23:36:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-30 23:36:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-30 23:36:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-03-31 23:23:20 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-03-31 23:23:20 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.46 ----------
+
+2021-03-31 23:23:20 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-03-31 23:23:20 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-03-31 23:23:21 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-03-31 23:23:21 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-03-31 23:23:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-31 23:23:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-31 23:23:22 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-03-31 23:23:22 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-03-31 23:23:22 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-03-31 23:23:22 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-03-31 23:23:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 23:24:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 23:25:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 23:25:04 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-31 23:25:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 23:25:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-31 23:25:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-31 23:25:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 23:25:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 23:26:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
