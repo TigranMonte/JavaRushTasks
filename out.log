@@ -14169,3 +14169,8 @@ java.net.UnknownHostException: javarush.ru
 2021-04-09 22:24:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-04-09 22:24:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-04-09 22:25:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-09 22:26:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-09 22:26:02 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-04-09 22:26:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-09 22:26:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-09 22:26:46 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
