@@ -17030,3 +17030,9 @@ java.net.UnknownHostException: javarush.ru: nodename nor servname provided, or n
 2021-04-26 20:32:31 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
 2021-04-26 20:32:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-04-26 20:32:55 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-26 20:33:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-26 20:33:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-04-26 20:33:55 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-26 20:34:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-26 20:34:08 INFO  AnalyticsService.run(79) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-04-26 20:34:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
