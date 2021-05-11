@@ -21,7 +21,6 @@ public class AmigoSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Se
             return true;
         } else return false;
     }
-
     @Override
     public void clear() {
         map.clear();
