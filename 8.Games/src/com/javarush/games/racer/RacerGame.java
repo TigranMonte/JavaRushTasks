@@ -46,7 +46,6 @@ public class RacerGame extends Game {
         moveAll();
         drawScene();
     }
-
     private void createGame() {
         score = 3500;
         roadMarking = new RoadMarking();
@@ -104,7 +103,6 @@ public class RacerGame extends Game {
         }
         super.setCellColor(x, y, color);
     }
-
     @Override
     public void onKeyPress(Key key) {
         if (key == Key.SPACE && isGameStopped) {
@@ -117,7 +115,6 @@ public class RacerGame extends Game {
             player.setDirection(Direction.LEFT);
         }
     }
-
     @Override
     public void onKeyReleased(Key key) {
         if (key == Key.UP) {
