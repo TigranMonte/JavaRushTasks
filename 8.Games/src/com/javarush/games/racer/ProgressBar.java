@@ -18,7 +18,6 @@ public class ProgressBar {
         int x = RacerGame.WIDTH - 5;
         int y = RacerGame.HEIGHT / 2 - maxValue / 2;
         progressBarField = new GameObject(x, y, fieldMatrix);
-
         progressBar = new GameObject(x, y + maxValue, indicatorMatrix);
     }
 
@@ -35,7 +34,6 @@ public class ProgressBar {
     private int[][] createColoredMatrix(int width, int height, Color color) {
         int[] line = new int[width];
         Arrays.fill(line, color.ordinal());
-
         int[][] matrix = new int[height][width];
         Arrays.fill(matrix, line);
 
