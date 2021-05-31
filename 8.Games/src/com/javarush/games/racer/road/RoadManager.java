@@ -91,7 +91,6 @@ public class RoadManager {
         }
         return false;
     }
-
     private void generateRegularCar(Game game) {
         if (game.getRandomNumber(100) < 30) {
             int carTypeNumber = game.getRandomNumber(4);
@@ -106,7 +105,6 @@ public class RoadManager {
         }
         return true;
     }
-
     private boolean isMovingCarExists() {
         for (RoadObject item : items) {
             if (item instanceof MovingCar) {
@@ -115,10 +113,10 @@ public class RoadManager {
         }
         return false;
     }
-
     private void generateMovingCar(Game game) {
         if (game.getRandomNumber(100) < 10 && !isMovingCarExists()) {
             addRoadObject(RoadObjectType.DRUNK_CAR, game);
         }
     }
+
 }
