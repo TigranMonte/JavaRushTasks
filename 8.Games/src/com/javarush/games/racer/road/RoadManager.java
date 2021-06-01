@@ -30,7 +30,6 @@ public class RoadManager {
             return new Car(type, x, y);
         }
     }
-
     private void addRoadObject(RoadObjectType roadObjectType, Game game) {
         int x = game.getRandomNumber(FIRST_LANE_POSITION, FOURTH_LANE_POSITION);
         int y = -1 * RoadObject.getHeight(roadObjectType);
@@ -39,20 +38,17 @@ public class RoadManager {
             items.add(roadObject);
         }
     }
-
     public void draw(Game game) {
         for (RoadObject item : items) {
             item.draw(game);
         }
     }
-
     public void move(int boost) {
         for (RoadObject item : items) {
             item.move(boost + item.speed, items);
         }
         deletePassedItems();
     }
-
     private boolean isThornExists() {
         for (RoadObject item : items) {
             if (item instanceof Thorn) {
@@ -118,5 +114,4 @@ public class RoadManager {
             addRoadObject(RoadObjectType.DRUNK_CAR, game);
         }
     }
-
 }
