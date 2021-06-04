@@ -37582,3 +37582,16 @@ Caused by: org.apache.http.ConnectionClosedException: Connection closed
 2021-06-02 20:50:15 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2021-06-02 20:50:15 INFO  ApacheHttpClient.startGA(36) - GAService started.
 2021-06-02 20:50:15 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-06-02 20:51:15 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-02 20:51:26 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-06-02 20:51:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-06-02 20:51:27 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-06-04 21:56:32 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-06-04 21:56:32 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-06-04 21:56:32 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-06-04 21:56:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-06-04 21:56:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-06-04 21:56:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-06-04 21:56:33 INFO  AbstractRestApiClient.startService(71) - EventsService started.

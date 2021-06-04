@@ -28,13 +28,11 @@ public class ProgressBar {
         int dy = currentValue < maxValue - 1 ? currentValue : maxValue - 1;
         progressBar.y = progressBarField.y + progressBarField.height - dy - 1;
     }
-
     private int[][] createColoredMatrix(int width, int height, Color color) {
         int[] line = new int[width];
         Arrays.fill(line, color.ordinal());
         int[][] matrix = new int[height][width];
         Arrays.fill(matrix, line);
-
         return matrix;
     }
 }

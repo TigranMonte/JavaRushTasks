@@ -6,5 +6,4 @@ public class Thorn extends RoadObject {
         super(RoadObjectType.THORN, x, y);
         speed = 0;
     }
-
 }

@@ -9,7 +9,6 @@ public class FinishLine extends GameObject {
     public void show() {
         isVisible = true;
     }
-
     public void move(int boost) {
         if (!isVisible) {
             return;
