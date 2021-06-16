@@ -58,7 +58,6 @@ public class RoadObject extends GameObject {
                 return ShapeMatrix.TRUCK;
         }
     }
-
     /**
      * Возвращает высоту объекта.
      */

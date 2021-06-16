@@ -9,6 +9,7 @@ public class MovingCar extends RoadObject {
         super(RoadObjectType.DRUNK_CAR, x, y);
         speed = 1;
     }
+
     @Override
     public void move(int boost, List<RoadObject> roadObjects) {
         y += boost;
@@ -26,6 +27,7 @@ public class MovingCar extends RoadObject {
             dx = -dx;
         }
     }
+
     private boolean checkRoadHit(List<RoadObject> items) {
         for (RoadObject item : items) {
             if (item == this || item.type == RoadObjectType.THORN) {
