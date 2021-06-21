@@ -35,4 +35,5 @@ public class ProgressBar {
         Arrays.fill(matrix, line);
         return matrix;
     }
+
 }
