@@ -20,14 +20,17 @@ public class ProgressBar {
         progressBarField = new GameObject(x, y, fieldMatrix);
         progressBar = new GameObject(x, y + maxValue, indicatorMatrix);
     }
+
     public void draw(Game game) {
         progressBarField.draw(game);
         progressBar.draw(game);
     }
+
     public void move(int currentValue) {
         int dy = currentValue < maxValue - 1 ? currentValue : maxValue - 1;
         progressBar.y = progressBarField.y + progressBarField.height - dy - 1;
     }
+
     private int[][] createColoredMatrix(int width, int height, Color color) {
         int[] line = new int[width];
         Arrays.fill(line, color.ordinal());
@@ -35,5 +38,4 @@ public class ProgressBar {
         Arrays.fill(matrix, line);
         return matrix;
     }
-
 }
